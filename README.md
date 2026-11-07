@@ -63,4 +63,44 @@ Resolving these challenges strengthened my debugging skills and understanding of
 
 Computer Science Student — Southern New Hampshire University
 
+
+## Application Screenshots
+
+The following screenshots demonstrate the Android Weight Tracker application, developed using Java, SQLite, and Android Studio.
+
+### 1. Login Screen
+The application provides a login interface and account creation functionality.
+
+![Login Screen](Screen%20shots/Loginscreen.png)
+
+### 2. Weight Dashboard
+The main dashboard displays recorded weights, goal information, and options to manage weight entries.
+
+![Weight Dashboard](Screen%20shots/Dashboard.png)
+
+### 3. Weight Management
+Users can add weight entries and manage existing records through the application interface.
+
+![Weight Management](Screen%20shots/Dashboard%202.png)
+
+
+### 4. SMS Notification Settings
+
+The application includes a screen for managing SMS notification permissions.
+
+![SMS Notification Settings](./Screen%20shots/SMS%20notifcations.png)
+
+
+
+---
+
+## Project Highlights
+
+- Built an Android application using Java and XML.
+- Implemented local data storage using SQLite.
+- Developed functionality for adding, editing, viewing, and deleting weight records.
+- Integrated Android SMS permission handling.
+- Debugged application crashes, layout errors, and activity navigation issues.
+- Tested application functionality using the Android emulator.
+
 GitHub: https://github.com/Jarod-bit
