@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Screen title -->
+        <TextView
+            android:id="@+id/smsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Goal Notifications"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="36dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Explain notification behavior -->
+        <TextView
+            android:id="@+id/smsDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable SMS notifications to receive a one-time text message when your logged weight reaches 180 lbs or below. Standard messaging rates may apply."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Phone number label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Phone Number"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Phone number input -->
+        <EditText
+            android:id="@+id/smsPhoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your 10-digit phone number"
+            android:inputType="phone"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#666666" />
+
+        <!-- Current notification status -->
+        <TextView
+            android:id="@+id/smsStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS Notifications: Disabled"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Enable notifications -->
+        <Button
+            android:id="@+id/buttonAllowSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable SMS Alerts" />
+
+        <!-- Disable notifications -->
+        <Button
+            android:id="@+id/buttonDisableSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disable SMS Alerts"
+            android:layout_marginTop="12dp" />
+
+        <!-- Return to dashboard -->
+        <Button
+            android:id="@+id/buttonSkipSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Dashboard"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>
